@@ -20,7 +20,7 @@ Training the classifier for classifier-guided diffusion can be done similarly wi
 - unconditional diffusion
     - worked well after training for 25 epochs (~15 minutes)
 - classifier guided diffusion
-    - trained for 9 epochs (~4 minutes)
+    - classifier trained for 9 epochs (~4 minutes)
 - classifier-free diffusion
     - trained for 40 epochs
     - results still less reliable than classifier-guided diffusion
