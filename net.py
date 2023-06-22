@@ -39,7 +39,7 @@ class UpBlock(nn.Module):
         self.batchnorm = nn.BatchNorm2d(cout)
 
     def forward(self, x):
-        x = self.up_conv(x) #TODO: look into this
+        x = self.up_conv(x)
         x0 = x
         x = self.activation(x)
         x = self.conv1(x)

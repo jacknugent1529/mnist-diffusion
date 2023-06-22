@@ -1,4 +1,4 @@
-# Diffusion Model MNIST
+# Diffusion Model for MNIST
 Basic diffusion model for MNIST for the purposes of exploring diffusion models and guidance in particular. 
 
 ## Usage
